@@ -14,5 +14,11 @@ function sayHiToGrandma(string) {
   var uppercase = "HELLO!"
   var lowercase = "hello!"
   var loveYou = "I love you, Grandma"
-  return uppercase
+  if (uppercase.toUpperCase() === uppercase) {
+    console.log('HELLO')
+  } else if (lowercase.toLowercase() === lowercase) {
+    console.log('hello')
+  }else if (loveYou === "I love you, Grandma") {
+    console.log('I love you, too ')
+  }
 }
